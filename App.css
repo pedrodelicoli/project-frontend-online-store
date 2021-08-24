@@ -1,0 +1,157 @@
+/* body {
+  background-color: #D7F4FF;
+}
+
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+.Category {
+  background-color: #0078A8;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 250px;
+  text-align: left;
+  border-radius: 0px 24px 24px 0px;
+}
+
+.Category li{
+  list-style: none;
+  margin: 6px 0;
+  color: white;
+  padding-left: 25px;
+}
+
+.Category li:hover {
+  transform: scale(1.1);
+  transition: 0.1s ease-out;
+  cursor: pointer;
+}
+
+.Index {
+  display: flex;
+  justify-content: space-between;
+  /* background-color: grey; */
+/* } */
+
+#carrinho {
+  width: 100px;
+  display: flex;
+  margin: 0 auto;
+  cursor: default;
+}
+
+.Index p{
+  color: #9e9e9e;
+  font-family: serif;
+  font-weight: 100px;
+}
+
+.Index img {
+  height: 40px;
+  background-color: #F0802B;
+  border-radius: 20px;
+  padding: 0 100px;
+  justify-content: center;
+}
+
+.CartButton {
+  /* background-color: black; */
+  display: flex;
+  justify-content: center;
+} */
+
+body {
+  background-color: #d7f4ff;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.Category {
+  background-color: #0078a8;
+  border: 3px solid lightgray;
+  border-left: none;
+  border-top: none;
+  border-radius: 0 24px 24px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
+  width: 300px;
+}
+
+.Category option {
+  color: white;
+  list-style: none;
+  margin: 3px 0;
+  padding-left: 30px;
+}
+
+.Category option:hover {
+  background-color: white;
+  border-radius: 10px;
+  color: #f0802b;
+  cursor: pointer;
+  font-size: large;
+  transform: scale(1.1);
+  transition: 0.1s ease-out;
+}
+
+.Index {
+  display: flex;
+  justify-content: space-between;
+
+  /* background-color: grey; */
+}
+
+.Index p {
+  color: #9e9e9e;
+  font-family: serif;
+  font-weight: 100;
+}
+
+.Index img {
+  background-color: #f0802b;
+  border: 3px solid lightgray;
+  border-radius: 20px;
+  height: 40px;
+  justify-content: center;
+  padding: 0 10px;
+}
+
+.Index img:hover {
+  background-color: #ffa155;
+  border: 3px solid lightgray;
+  cursor: pointer;
+  margin-right: 5px;
+  margin-top: 5px;
+  transform: scale(1.2);
+  transition: 0.1s ease-out;
+}
+
+.Index img:active {
+  background-color: lightgray;
+  margin-right: 5px;
+  margin-top: 5px;
+  transform: scale(0.9);
+  transition: 0.1s ease-out;
+}
+
+.CartButton {
+  display: flex;
+  justify-content: center;
+}
+
+.Cart {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
